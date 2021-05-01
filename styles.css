@@ -1,1 +1,29 @@
-styling mooi in het midden niet te groot enzo
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Mukta', Arial, sans-serif;
+}
+
+
+.sign-up-container {
+    padding: 30px;
+    background-color: hsl(139, 54%, 83%);
+    color: hsl(135, 10%, 23%);
+    border-radius: 4px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+}

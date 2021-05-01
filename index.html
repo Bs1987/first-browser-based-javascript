@@ -1,17 +1,24 @@
-<html>
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<form>
-    <label for="username">Gebruikersnaam:</label>
-    <input type="text" id="username">
-    <label for="password">Wachtwoord:</label>
-    <input type="password" id="password">
-</form>
+<div class="sign-up-container">
+    <h1>Registreren</h1>
+    <form>
+        <label for="input-username">
+            Gebruikersnaam:</label>
+        <input type="text" id="input-username" name="username">
+        <label for="input-password">
+            Wachtwoord:</label>
+        <input type="password" id="input-password">
+    </form>
+</div>
+<script src="main.js"></script>
 </body>
 </html>
