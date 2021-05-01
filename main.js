@@ -12,8 +12,14 @@
 // Steps:
 
 // [X] - make variable to check username form
-const inputUsername = document.getElementById("input-username");
+const usernameInput = document.getElementById("input-username");
+console.log(usernameInput);
+
 // [X] - make variable to input string into username warning
 const usernameWarning = document.getElementById("username-warning");
+console.log(usernameWarning);
+
+usernameInput.addEventListener('keyup', checkUsername);
+
 // [] - check username form for "@" symbol (if statement)
 // [] - make function to act on output from username check
