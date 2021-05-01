@@ -27,3 +27,9 @@ form {
 input {
     width: 100%;
 }
+
+.form-warning {
+    color: red;
+    font-size: 10px;
+    min-height: 16px;
+}

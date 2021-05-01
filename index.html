@@ -10,13 +10,17 @@
 <body>
 <div class="sign-up-container">
     <h1>Registreren</h1>
-    <form>
+    <form action="">
         <label for="input-username">
-            Gebruikersnaam:</label>
-        <input type="text" id="input-username" name="username">
+            Gebruikersnaam:
+            <input type="text" id="input-username" name="username">
+        </label>
+        <p class="form-warning" id="username-warning"></p>
         <label for="input-password">
-            Wachtwoord:</label>
-        <input type="password" id="input-password">
+            Wachtwoord:
+            <input type="password" id="input-password">
+        </label>
+        <p class="form-warning" id="password-warning"></p>
     </form>
 </div>
 <script src="main.js"></script>
