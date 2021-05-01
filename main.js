@@ -16,8 +16,10 @@ function checkUsername(e) {
 // steps for checking password:
 //
 // [X] - make variables
-// [] - make eventlistener
+// [X] - make eventlistener
 // [] - make function
 
 const passwordInput = document.getElementById("input-password");
 const passwordWarning = document.getElementById("password-warning");
+
+passwordInput.addEventListener('keyup', checkPassword);
