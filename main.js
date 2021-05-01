@@ -21,5 +21,13 @@ console.log(usernameWarning);
 
 usernameInput.addEventListener('keyup', checkUsername);
 
-// [] - check username form for "@" symbol (if statement)
-// [] - make function to act on output from username check
+function checkUsername(e) {
+    // if usernameInput contains "@", show following message
+    if (e.target.value.includes('@')) {
+        usernameWarning.textContent = 'Gebruikersnaam mag geen @ bevatten';
+    } else {
+        // don't show message
+        usernameWarning.textContent = '';
+    }
+}
+// [X] - make function to act on output from username check
